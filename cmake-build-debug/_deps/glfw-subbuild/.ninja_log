@@ -1,0 +1,21 @@
+# ninja log v5
+0	26	1644509178412076983	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir	e9cc99731adeab4b
+0	26	1644509178412076983	/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir	e9cc99731adeab4b
+26	2122	1644509180508461039	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download	8410d7bdafab1dde
+26	2122	1644509180508461039	/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download	8410d7bdafab1dde
+2122	2558	0	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update	e5f2f9dbf1895188
+2122	2558	0	/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update	e5f2f9dbf1895188
+2558	2567	1644509180952758304	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch	5755e4010682655f
+2558	2567	1644509180952758304	/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch	5755e4010682655f
+2567	2575	1644509180961066531	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure	d7d23dbc3ac1da69
+2567	2575	1644509180961066531	/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure	d7d23dbc3ac1da69
+2575	2585	1644509180970876581	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build	c9fdbe836aebdc59
+2575	2585	1644509180970876581	/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build	c9fdbe836aebdc59
+2585	2595	1644509180980635005	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install	31198c65a15162b5
+2585	2595	1644509180980635005	/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install	31198c65a15162b5
+2595	2604	1644509180989795393	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test	e5b80ba1d2dda6f
+2595	2604	1644509180989795393	/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test	e5b80ba1d2dda6f
+2604	2617	1644509181003226997	CMakeFiles/glfw-populate-complete	4bb67db3b13dc15a
+2604	2617	1644509181003226997	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-done	4bb67db3b13dc15a
+2604	2617	1644509181003226997	/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/cmake-build-debug/_deps/glfw-subbuild/CMakeFiles/glfw-populate-complete	4bb67db3b13dc15a
+2604	2617	1644509181003226997	/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-done	4bb67db3b13dc15a
