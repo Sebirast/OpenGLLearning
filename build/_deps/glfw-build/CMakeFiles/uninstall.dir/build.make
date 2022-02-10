@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.22.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sebastianrast/Documents/OpenGL/OpenGLTest
+CMAKE_SOURCE_DIR = /Users/sebastianrast/Documents/OpenGL/OpenGLLearning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build
+CMAKE_BINARY_DIR = /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include _deps/glfw-build/CMakeFiles/uninstall.dir/compiler_depend.make
 include _deps/glfw-build/CMakeFiles/uninstall.dir/progress.make
 
 _deps/glfw-build/CMakeFiles/uninstall:
-	cd /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build && /opt/homebrew/Cellar/cmake/3.22.2/bin/cmake -P /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build/cmake_uninstall.cmake
+	cd /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build && /opt/homebrew/Cellar/cmake/3.22.2/bin/cmake -P /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build/cmake_uninstall.cmake
 
 uninstall: _deps/glfw-build/CMakeFiles/uninstall
 uninstall: _deps/glfw-build/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ _deps/glfw-build/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : _deps/glfw-build/CMakeFiles/uninstall.dir/build
 
 _deps/glfw-build/CMakeFiles/uninstall.dir/clean:
-	cd /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : _deps/glfw-build/CMakeFiles/uninstall.dir/clean
 
 _deps/glfw-build/CMakeFiles/uninstall.dir/depend:
-	cd /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sebastianrast/Documents/OpenGL/OpenGLTest /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sebastianrast/Documents/OpenGL/OpenGLLearning /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : _deps/glfw-build/CMakeFiles/uninstall.dir/depend
 

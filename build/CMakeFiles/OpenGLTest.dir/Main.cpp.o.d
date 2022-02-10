@@ -1,5 +1,5 @@
 CMakeFiles/OpenGLTest.dir/Main.cpp.o: \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/Main.cpp \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/Main.cpp \
   /opt/homebrew/include/GL/glew.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \
@@ -43,7 +43,7 @@ CMakeFiles/OpenGLTest.dir/Main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/os/availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/include/GLFW/glfw3.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ios \

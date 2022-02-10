@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.22.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sebastianrast/Documents/OpenGL/OpenGLTest
+CMAKE_SOURCE_DIR = /Users/sebastianrast/Documents/OpenGL/OpenGLLearning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build
+CMAKE_BINARY_DIR = /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include _deps/glfw-build/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include _deps/glfw-build/src/CMakeFiles/update_mappings.dir/progress.make
 
 _deps/glfw-build/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src && /opt/homebrew/Cellar/cmake/3.22.2/bin/cmake -P /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src && /opt/homebrew/Cellar/cmake/3.22.2/bin/cmake -P /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: _deps/glfw-build/src/CMakeFiles/update_mappings
 update_mappings: _deps/glfw-build/src/CMakeFiles/update_mappings.dir/build.make
@@ -79,10 +79,10 @@ _deps/glfw-build/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : _deps/glfw-build/src/CMakeFiles/update_mappings.dir/build
 
 _deps/glfw-build/src/CMakeFiles/update_mappings.dir/clean:
-	cd /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : _deps/glfw-build/src/CMakeFiles/update_mappings.dir/clean
 
 _deps/glfw-build/src/CMakeFiles/update_mappings.dir/depend:
-	cd /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sebastianrast/Documents/OpenGL/OpenGLTest /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build/src /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build/src/CMakeFiles/update_mappings.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sebastianrast/Documents/OpenGL/OpenGLLearning /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build/src /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build/src/CMakeFiles/update_mappings.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : _deps/glfw-build/src/CMakeFiles/update_mappings.dir/depend
 

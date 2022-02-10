@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build/install_manifest.txt\"")
+if (NOT EXISTS "/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build/install_manifest.txt\"")
 endif()
 
-file(READ "/Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build/install_manifest.txt" files)
+file(READ "/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

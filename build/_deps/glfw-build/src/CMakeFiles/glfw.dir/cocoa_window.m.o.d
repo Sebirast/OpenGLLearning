@@ -1,7 +1,7 @@
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.o: \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/cocoa_window.m \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/internal.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/../include/GLFW/glfw3.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/cocoa_window.m \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/internal.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/../include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/stdint.h \
@@ -30,9 +30,9 @@ _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/platform.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/null_platform.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/cocoa_platform.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/platform.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/null_platform.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/cocoa_platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h \
@@ -1320,12 +1320,12 @@ _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/NSPersistentCloudKitContainerEvent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/NSPersistentCloudKitContainerEventRequest.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/NSCoreDataCoreSpotlightDelegate.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/null_joystick.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/cocoa_joystick.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/null_joystick.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/cocoa_joystick.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOCFPlugIn.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/posix_thread.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/posix_thread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread/qos.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/cocoa_time.h
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/cocoa_time.h

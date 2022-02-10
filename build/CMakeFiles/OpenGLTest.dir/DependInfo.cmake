@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/sebastianrast/Documents/OpenGL/OpenGLTest/Main.cpp" "CMakeFiles/OpenGLTest.dir/Main.cpp.o" "gcc" "CMakeFiles/OpenGLTest.dir/Main.cpp.o.d"
+  "/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/Main.cpp" "CMakeFiles/OpenGLTest.dir/Main.cpp.o" "gcc" "CMakeFiles/OpenGLTest.dir/Main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

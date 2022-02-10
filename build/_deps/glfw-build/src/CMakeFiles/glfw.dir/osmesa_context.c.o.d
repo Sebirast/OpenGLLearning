@@ -1,5 +1,5 @@
 _deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.o: \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/osmesa_context.c \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/osmesa_context.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/AvailabilityVersions.h \
@@ -72,12 +72,12 @@ _deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/secure/_common.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/secure/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/assert.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/internal.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/../include/GLFW/glfw3.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/internal.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/../include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stddef.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/platform.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/null_platform.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/cocoa_platform.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/platform.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/null_platform.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/cocoa_platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h \
@@ -776,12 +776,12 @@ _deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/IOKit.framework/Headers/hid/IOHIDUsageTables.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/IOKit.framework/Headers/hid/IOHIDValue.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/IOKit.framework/Headers/hid/IOHIDTransaction.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/null_joystick.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/cocoa_joystick.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/null_joystick.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/cocoa_joystick.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOCFPlugIn.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/posix_thread.h \
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/posix_thread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread/qos.h \
-  /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/src/cocoa_time.h
+  /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/src/cocoa_time.h

@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.22.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sebastianrast/Documents/OpenGL/OpenGLTest
+CMAKE_SOURCE_DIR = /Users/sebastianrast/Documents/OpenGL/OpenGLLearning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build
+CMAKE_BINARY_DIR = /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/CMakeFiles /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/CMakeFiles /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

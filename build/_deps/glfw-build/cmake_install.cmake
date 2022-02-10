@@ -1,4 +1,4 @@
-# Install script for directory: /Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src
+# Install script for directory: /Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -34,22 +34,22 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build/src/cmake_install.cmake")
+  include("/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build/src/cmake_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-src/include/GLFW" FILES_MATCHING REGEX "/glfw3\\.h$" REGEX "/glfw3native\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-src/include/GLFW" FILES_MATCHING REGEX "/glfw3\\.h$" REGEX "/glfw3native\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES
-    "/Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build/src/glfw3Config.cmake"
-    "/Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build/src/glfw3ConfigVersion.cmake"
+    "/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build/src/glfw3Config.cmake"
+    "/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build/src/glfw3ConfigVersion.cmake"
     )
 endif()
 
@@ -57,7 +57,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3/glfw3Targets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3/glfw3Targets.cmake"
-         "/Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets.cmake")
+         "/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3/glfw3Targets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -66,13 +66,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES "/Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES "/Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets-noconfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES "/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES "/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets-debug.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/sebastianrast/Documents/OpenGL/OpenGLTest/build/_deps/glfw-build/src/glfw3.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/sebastianrast/Documents/OpenGL/OpenGLLearning/build/_deps/glfw-build/src/glfw3.pc")
 endif()
 
